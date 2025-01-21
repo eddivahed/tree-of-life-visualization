@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "tree-of-life-project"
+version = "0.1.0"
+description = "Nature image clustering and visualization project"
+authors = ["Amir Hossein Vahed"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "tree_of_life_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tqdm = "^4.67.1"
+pandas = "^2.2.3"
+scikit-learn = "^1.6.1"
+umap = "^0.1.1"
+llvmlite = "^0.43.0"
+umap-learn = "^0.5.7"
+vispy = "^0.14.3"
+pyqt6 = "^6.8.0"
+pyglet = "^2.1.0"
+pillow = "^11.1.0"
+opencv-python = "^4.11.0.86"
+requests = "^2.32.3"
+torch = "^1.10.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+black = "^24.10.0"
+isort = "^5.13.2"
+jupyterlab = "^4.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
