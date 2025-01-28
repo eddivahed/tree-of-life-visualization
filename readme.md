@@ -141,4 +141,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🎥 Related Video
 
-Check out the project explanation video on my YouTube channel: [Fellowship of eddie](https://www.youtube.com/your-channel)
+Check out the project explanation video on my YouTube channel: [Fellowship of eddie](https://www.youtube.com/@TheFellowshipofEddie)
